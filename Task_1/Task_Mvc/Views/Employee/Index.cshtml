@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<html>
+<head>
+    <title>Employee</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" defer />
+    <link href="~/Content/iziToast-master/dist/css/iziToast.min.css" rel="stylesheet" defer />
+</head>
+<body>
+    <div align="center">
+        <h1><b>Employee Task</b></h1>
+        <br />
+
+        <label>Emp Name</label>
+        <input type="text" id="txtEmpName" placeholder="Jon" />
+        <br />
+        <br />
+
+        <label>Emp Age   :-</label>
+        <input type="number" id="txtEmpAge" placeholder="20" />
+        <br />
+        <br />
+
+        <label>Emp City   :-</label>
+        <input type="text" id="txtEmpCity" placeholder="Pune" />
+        <br />
+        <br />
+
+        <button class="btn btn-primary" id="btnSaveEmp"> Save Employee</button>
+        <button class="btn btn-danger" id="btnClear"> Clear</button>
+        <input type="hidden" id="hdnEmpId" value="" />
+    </div>
+
+    <br />
+    <br />
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-primary">Employee Id</th>
+                <th class="text-primary">Employee Name</th>
+                <th class="text-primary">Employeemp Age</th>
+                <th class="text-primary">Employee City</th>
+                <th class="text-primary">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tblEmployee">
+        </tbody>
+    </table>
+
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Content/iziToast-master/dist/js/iziToast.min.js"></script>
+
+    <script src="~/Scripts/Master/Employee.js"></script>
+
+</body>
+</html>
+

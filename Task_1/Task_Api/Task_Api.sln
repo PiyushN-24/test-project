@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task_Api", "Task_Api.csproj", "{9B21D4FE-1240-435A-8DE8-3BC269914690}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_Mvc", "..\Task_Mvc\Task_Mvc.csproj", "{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.MVC", "1.MVC", "{C4CD8507-30CE-4738-B560-0E799135C1D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.API", "2.API", "{DE520B56-1E76-49B6-98DE-7AB4AF4EEAB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B21D4FE-1240-435A-8DE8-3BC269914690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B21D4FE-1240-435A-8DE8-3BC269914690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B21D4FE-1240-435A-8DE8-3BC269914690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B21D4FE-1240-435A-8DE8-3BC269914690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B21D4FE-1240-435A-8DE8-3BC269914690} = {DE520B56-1E76-49B6-98DE-7AB4AF4EEAB5}
+		{BE3CB18F-5BD0-4F6F-B632-1AFC89479CBD} = {C4CD8507-30CE-4738-B560-0E799135C1D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7544A1CA-610A-4522-BE86-A3A3B7536F6F}
+	EndGlobalSection
+EndGlobal

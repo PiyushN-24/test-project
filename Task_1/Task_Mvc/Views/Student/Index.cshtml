@@ -1,0 +1,61 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Student</h2>
+
+<html>
+<head>
+    <title>Student</title>
+</head>
+<body>
+
+    <h1>Student</h1>
+
+    <div class="col-md-8 col-sm-12 mt--1 col-xs-12">
+        <div class="form-group attached_Doc" style="">
+            <div class="table-responsive">
+                <table id="tblAssociationDoc">
+                    <tbody>
+                        <tr id="addDocRow">
+                            <td class="col-sm-3" id="tourEnterAttachmentName">
+                                <label>COURSENAME</label>
+                                <input type="text" class="form-control txtAttachmentName" id="txtAttachmentName" tabindex="1" name="txtAttachmentName" value="" >
+                            </td>
+                            <td class="col-sm-3" id="tourUpload">
+                                <label>SHORTNAME</label>
+                                <input type="text" class="form-control fileAttachmentUpload" id="fileAttachmentUpload" tabindex="1" name="fileAttachmentUpload" value="" >
+                            </td>
+                            <td class="col-sm-3" id="tourUpload">
+                                <label>CODE</label>
+                                <input type="text" class="form-control fileAttachmentUpload" id="fileAttachmentUpload" tabindex="1" name="fileAttachmentUpload" value="" >
+                            </td>
+                            <td class="col-sm-3" id="tourUpload">
+                                <label>CREDITS</label>
+                                <input type="text" class="form-control fileAttachmentUpload" id="fileAttachmentUpload" tabindex="1" name="fileAttachmentUpload" value="" >
+                            </td>
+                            <td class="col-sm-3" id="tourUpload">
+                                <label>COURSE_TYPE_ID</label>
+                                <input type="text" class="form-control fileAttachmentUpload" id="fileAttachmentUpload" tabindex="1" name="fileAttachmentUpload" value="" >
+                            </td>
+                            <td class="col-sm-2 text-center" id="tourAddButton">
+                                <br>
+                                <button id="addDoc" class="btn btn-primary">Add <i class="fa fa-plus"></i></button>
+                                <input type="hidden" id="txtAlumniId" name="txtAlumniId" value="">
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody id="newRowAdd" algin="center"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/Master/Demo.js"></script>
+
+</body>
+</html>
