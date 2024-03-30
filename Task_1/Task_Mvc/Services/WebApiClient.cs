@@ -71,7 +71,7 @@ namespace Task_Mvc.Services
                     // TODO: Log Errors
                 }
             }
-            //catch (Exception ex)
+            catch (Exception ex)
             {
             }
 
