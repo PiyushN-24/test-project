@@ -11,7 +11,8 @@ pipeline {
         stage('Build') {
             steps {
                 // Run MSBuild commands to build the .NET MVC project
-                    sh 'msbuild /p:Configuration=Release Task_Mvc.csproj'
+                // sh 'msbuild /p:Configuration=Release Task_Mvc.csproj'
+		sh 'dotnet build'
             }
         }
         stage('Deploy') {
