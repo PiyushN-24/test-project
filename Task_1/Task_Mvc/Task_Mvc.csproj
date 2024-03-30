@@ -14,7 +14,12 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Task_Mvc</RootNamespace>
     <AssemblyName>Task_Mvc</AssemblyName>
+	<!-- My added lines -->
     <!-- <TargetFramework>netcoreapp3.1</TargetFramework> -->
+    <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+    </ItemGroup>
+
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
