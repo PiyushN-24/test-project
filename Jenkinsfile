@@ -10,11 +10,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-                // Navigate to the directory containing the .NET project file
-                dir('test-project/Task_1/Task_Mvc') {
-                    // Run MSBuild commands to build the .NET MVC project
+                // Run MSBuild commands to build the .NET MVC project
                     sh 'msbuild /p:Configuration=Release Task_Mvc.csproj'
-                }
             }
         }
         stage('Deploy') {
