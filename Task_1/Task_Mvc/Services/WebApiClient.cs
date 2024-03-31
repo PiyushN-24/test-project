@@ -71,9 +71,8 @@ namespace Task_Mvc.Services
                     // TODO: Log Errors
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-		 // No action required; exception will propagate
 	    }
 
             return response;
