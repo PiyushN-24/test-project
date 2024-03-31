@@ -143,9 +143,9 @@
 -->
 
 	<!-- below 3 line entered by me -->
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="3.1.0" />
 
 
     <Reference Include="System.Web.Optimization">
