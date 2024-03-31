@@ -74,7 +74,8 @@ namespace Task_Mvc.Services
             catch (Exception ex)
             {
 		 // No action required; exception will propagate;
-            }
+            	 throw;
+	    }
 
             return response;
         }
