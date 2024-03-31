@@ -73,7 +73,7 @@ namespace Task_Mvc.Services
             }
             catch (Exception ex)
             {
-		logger.Error(ex, "An error occurred");
+		 // No action required; exception will propagate;
             }
 
             return response;
