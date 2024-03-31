@@ -14,9 +14,11 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Task_Mvc</RootNamespace>
     <AssemblyName>Task_Mvc</AssemblyName>
+
 	<!-- My added lines -->
     <TargetFramework>netcoreapp3.1</TargetFramework> 
     <!-- <TargetFrameworkVersion>v4.8</TargetFrameworkVersion> -->
+
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -120,10 +122,19 @@
       <Private>True</Private>
       <HintPath>..\Task_Api\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
+<!--
     <Reference Include="System.Web.Mvc, Version=5.2.9.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\Task_Api\packages\Microsoft.AspNet.Mvc.5.2.9\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+-->
+
+	<!-- below 3 line entered by me -->
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures" Version="3.1.0" />
+
+
     <Reference Include="System.Web.Optimization">
       <HintPath>..\Task_Api\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
@@ -143,9 +154,14 @@
       <Private>True</Private>
       <HintPath>..\Task_Api\packages\Microsoft.AspNet.WebPages.3.2.9\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
+<!--    <Reference Include="Newtonsoft.Json">
       <HintPath>..\Task_Api\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+-->
+
+<!-- below line added by me -->
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\Task_Api\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
