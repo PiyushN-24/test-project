@@ -15,8 +15,8 @@
     <RootNamespace>Task_Mvc</RootNamespace>
     <AssemblyName>Task_Mvc</AssemblyName>
 	<!-- My added lines -->
-    <!-- <TargetFramework>netcoreapp3.1</TargetFramework> -->
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFramework>netcoreapp3.1</TargetFramework> 
+    <!-- <TargetFrameworkVersion>v4.8</TargetFrameworkVersion> -->
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
